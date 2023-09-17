@@ -216,21 +216,30 @@ iframe{
 
 
 /* // Small devices (landscape phones, 576px and up) */
-@media(min-width: 286px) { 
+@media(max-width: 269px) { 
     .about{
-        margin-top: 100px;
+        margin-top: 810px;
+    
     }
 }
-@media(max-width: 257px) { 
+@media(max-width: 349px) and (min-width: 270px) { 
     .about{
-        margin-top: 400px;
+        margin-top: 650px;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  .about{
-    margin-top: 100px;
+@media (min-width: 768px ) {  .about{
+    margin-top: 400px;
 } }
+
+@media (min-width: 350px  ) and (max-width: 396px) {  .about{
+    margin-top: 650px;
+} }
+@media (min-width: 397px  ) and (max-width: 767px) {  .about{
+    margin-top: 500px;
+} }
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
